@@ -1,7 +1,7 @@
 const weather=document.querySelector(".weather");
 const cityinput=document.querySelector(".cityinput");
 const card=document.querySelector(".card");
-const api="4bf958c1c8867e29c61ab7e7a18f94d6";
+const api="YOUR_API_KEY";
 
 weather.addEventListener("submit",async event=>{
     event.preventDefault();
